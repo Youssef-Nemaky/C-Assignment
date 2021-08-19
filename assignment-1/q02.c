@@ -2,7 +2,7 @@
 ====================================================================
 * Authour: Youssef El-Nemaky
 * Date: 19/8/2021
-* Program/Purpose: e a program that print your name and your grade
+* Program/Purpose: a program that print your name and your grade
 in a new line.
 ====================================================================
 */
