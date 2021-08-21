@@ -30,13 +30,17 @@ int reverseNumber(int number){
     int numberReversed = 0;
     if(number < 0){
         isNegative = 1;
+        number = abs(number);
     }
 
     for(;numberOfDigits >=1; numberOfDigits--){
         numberReversed += number % 10 * pow(10, numberOfDigits - 1);
         number /= 10;
     }
-    return numberReversed;
+    if(isNegative){
+        return -numberReversed;
+    } else return numberReversed;
+    
 }
 
 int main(void){
