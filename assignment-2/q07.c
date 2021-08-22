@@ -1,7 +1,7 @@
 /*
 ====================================================================
 * Authour: Youssef El-Nemaky
-* Date: 21/8/2021
+* Date: 22/8/2021
 * Program/Purpose: a C Function that reads two integers and checks if the first is
   multiple of the second.
 ====================================================================
