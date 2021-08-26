@@ -17,7 +17,7 @@ int main(void){
     char inputString[strLength], inputChar;
 
     printf("Enter your string: ");
-    scanf(" %s", inputString);
+    gets(inputString);
 
     printf("Enter the character you want to find the frequency for: ");
     scanf(" %c", &inputChar);
