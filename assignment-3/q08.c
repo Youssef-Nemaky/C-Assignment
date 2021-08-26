@@ -21,20 +21,23 @@ int main(void){
     scanf("%d", &number);
 
     printf("the %d", number);
-    switch (number % 10)
-    {
-    case 1:
-        printf("st");
-        break;
-    case 2:
-        printf("nd");
-        break;
-    case 3:
-        printf("rd");
-        break;
-    default:
+    if(number == 11 || number == 12 || number == 13){
         printf("th");
-        break;
+    } else {
+        switch (number % 10){
+        case 1:
+            printf("st");
+            break;
+        case 2:
+            printf("nd");
+            break;
+        case 3:
+            printf("rd");
+            break;
+        default:
+            printf("th");
+            break;
+        }
     }
     printf(" term of the series is %d using loops method\n", findInSeriesLoop(number));
     printf("& %d using equation method", findInSeriesLoop(number));
